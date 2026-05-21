@@ -235,6 +235,8 @@ h3 {
 
 .hero-visual img {
   width: min(780px, 100%);
+  height: auto;
+  object-fit: contain;
   filter: drop-shadow(0 26px 38px rgba(11, 52, 48, 0.18));
 }
 
@@ -513,8 +515,18 @@ textarea {
     padding-top: 34px;
   }
 
+  .hero-copy {
+    order: 2;
+  }
+
   .hero-visual {
-    min-height: 260px;
+    min-height: auto;
+    order: 1;
+  }
+
+  .hero-visual img {
+    width: 100%;
+    max-height: none;
   }
 
   .hero-stats,
