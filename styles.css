@@ -192,6 +192,15 @@ h3 {
   border-color: var(--line);
 }
 
+.button.whatsapp {
+  color: white;
+  background: #25d366;
+}
+
+.button.whatsapp:hover {
+  background: #1fb859;
+}
+
 .hero-stats {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
